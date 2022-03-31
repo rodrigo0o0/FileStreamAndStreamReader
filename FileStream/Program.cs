@@ -13,32 +13,29 @@ namespace FileStreamAndStreamReader
         {
             //stream = sequencia de dados
             string path = @"c:\temp\file1.txt";
-            string path2 = @"c:\temp\file3.txt";
 
-            FileStream fs = null;
             StreamReader sr = null;
             try
             {
-                StreamReader srTest = new StreamReader(path2);
-                fs = new FileStream(path, FileMode.Open);  
-                sr = new StreamReader(fs);
-                string line = sr.ReadLine();
-                while(line != null)
+                sr = File.OpenText(path);
+                while(!sr.EndOfStream)
                 {
+                    string line = sr.ReadLine();
                     Console.WriteLine(line);
-                    line = sr.ReadLine();
 
                 }
                 Console.WriteLine("Fim do texto");
+                Console.WriteLine();
                 Console.ReadKey();
+     
             }catch(IOException ex)
             {
                 Console.WriteLine(ex.ToString());
+                Console.ReadKey();
             }
             finally
             {
-                fs.Close();
-                sr.Close();
+                if(sr != null) sr.Close();
             }
 
         }

@@ -1,0 +1,8 @@
+C:\Users\sande\source\repos\FileStream\FileStream\bin\Debug\FileStream.exe.config
+C:\Users\sande\source\repos\FileStream\FileStream\bin\Debug\FileStream.exe
+C:\Users\sande\source\repos\FileStream\FileStream\bin\Debug\FileStream.pdb
+C:\Users\sande\source\repos\FileStream\FileStream\obj\Debug\FileStreamAndStreamReader.csproj.AssemblyReference.cache
+C:\Users\sande\source\repos\FileStream\FileStream\obj\Debug\FileStreamAndStreamReader.csproj.SuggestedBindingRedirects.cache
+C:\Users\sande\source\repos\FileStream\FileStream\obj\Debug\FileStreamAndStreamReader.csproj.CoreCompileInputs.cache
+C:\Users\sande\source\repos\FileStream\FileStream\obj\Debug\FileStream.exe
+C:\Users\sande\source\repos\FileStream\FileStream\obj\Debug\FileStream.pdb
